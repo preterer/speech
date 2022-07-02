@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Speech demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+  </head>
+  <body>
+    <div class="text-to-speech">
+      <h1>Speech demo</h1>
+
+      <form id="speech-form" class="form">
+        <div class="form-control">
+          <label for="text">Text to say:</label>
+
+          <input
+            type="text"
+            id="text-to-say"
+            name="text-to-say"
+            value="Default text to say."
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="voice">Voice type:</label>
+
+          <input type="number" id="voice" name="voice" max="22" value="16" />
+        </div>
+
+        <div class="form-footer">
+          <button class="submit">Speak!</button>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <footer>
+    <script src="./demo.js"></script>
+
+    <style>
+      .text-to-speech {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 30px;
+      }
+
+      .text-to-speech .form {
+        display: flex;
+        flex-direction: column;
+
+        width: 300px;
+        padding: 30px;
+
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+
+      .text-to-speech .form .form-control {
+        margin-bottom: 20px;
+      }
+
+      .text-to-speech .form .form-footer {
+        display: flex;
+        justify-content: end;
+      }
+    </style>
+  </footer>
+</html>
