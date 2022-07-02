@@ -1,15 +1,17 @@
 {
-  "name": "speech",
-  "version": "1.0.0",
+  "name": "@preterer/speech",
+  "version": "1.0.1",
   "description": "Text-to-speech simplified",
   "main": "dist",
   "scripts": {
     "test": "test",
     "build": "tsc",
-    "build:demo": "webpack"
+    "build:demo": "webpack",
+    "prepublishOnly": "npm run build"
   },
   "author": "preterer@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "github:preterer/speech",
   "devDependencies": {
     "eslint": "^8.19.0",
     "prettier": "^2.7.1",
