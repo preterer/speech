@@ -42,4 +42,5 @@ But overy voice can do english pretty well, except for the aformentioned funny a
 
 ## TODO
 
-Fix demo:build to not insert its files into dist folder.
+1. Publish on npm.
+2. Fix demo:build to not insert its files into dist folder.
