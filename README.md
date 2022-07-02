@@ -43,4 +43,5 @@ But overy voice can do english pretty well, except for the aformentioned funny a
 ## TODO
 
 1. Publish on npm.
-2. Fix demo:build to not insert its files into dist folder.
+2. License.
+3. Fix demo:build to not insert its files into dist folder.
