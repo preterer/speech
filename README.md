@@ -18,6 +18,10 @@ import { speak } from "speech";
 speak({ text: "Text" });
 ```
 
+## Demo
+
+https://preterer.github.io/speech/demo/demo.html
+
 ## Voices
 
 ### PL voice
